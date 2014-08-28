@@ -1,0 +1,55 @@
+body {
+	background-color: #33CCFF;
+}
+input {
+	height: 30px;
+	margin-left: -5px;
+}
+
+#bar {
+	background-color: #3399FF;
+	width: 250px;
+	height: 70px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	padding-top: 1px;
+	text-align: center;
+	padding-bottom: 3px;
+}
+#button {
+	float: left;
+	margin-left: 0px; 
+	height: 55px;
+	width: 90px;
+	background-color: green;
+	text-align: center;
+	margin-top: -15px;
+	padding-bottom: 7px;
+	padding-top: -10px;
+	box-shadow: 0 2px black;
+}
+#input1 {
+	float: left;
+}
+#list{
+	height: 200px;
+	width: 200px;
+	margin-top: 50px;
+}
+.itemLi {
+	text-align: center;
+	padding-top: 0.1px;
+	width: 100px;
+	background-color: #0099FF;
+	margin-bottom: 5px;
+	height: 38px;
+}
+
+.itemLi:active {
+	background-color: orange;
+	margin-left: 10px;
+}
+#fakebody {
+	margin-left: 10%;
+}
+
