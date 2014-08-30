@@ -50,6 +50,27 @@ input {
 	margin-left: 10px;
 }
 #fakebody {
+	width: 260px;
 	margin-left: 10%;
+}
+@media(min-width: 390px) {
+	#fakebody {
+		margin-left:20%;
+	}
+}
+@media (min-width: 500px) {
+	#fakebody {
+		margin-left: 30%;
+	}
+}
+@media (min-width: 750px) {
+	#fakebody {
+		margin-left: 40%;
+	}
+}
+@media(min-width: 350px) {
+	#button {
+		margin-left: 5px;
+	}
 }
 
