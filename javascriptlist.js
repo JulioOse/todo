@@ -4,6 +4,9 @@ $(document).ready(function() {
 	}
 	$('#button').click(function() {
 		var $items = $('input[name=item]').val();
+		if ($items.length <= 14) {
+			$('.itemLi').css('text-align', 'center');	
+		}
 		$('#list').append("<div class='itemLi'> <p>" + $items + '</p> </div>');
 		localStorage.setItem($items, $items);
 		
