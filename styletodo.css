@@ -17,19 +17,16 @@ input {
 	padding-bottom: 3px;
 }
 #button {
-	float: left;
-	margin-left: 0px; 
+	float: right;
+	margin-right: 20px; 
 	height: 55px;
 	width: 90px;
 	background-color: green;
 	text-align: center;
-	margin-top: -15px;
+	margin-top: -50px;
 	padding-bottom: 7px;
 	padding-top: -10px;
 	box-shadow: 0 2px black;
-}
-#input1 {
-	float: left;
 }
 #list{
 	height: 200px;
@@ -37,12 +34,11 @@ input {
 	margin-top: 50px;
 }
 .itemLi {
-	text-align: center;
 	padding-top: 0.1px;
 	width: 100px;
 	background-color: #0099FF;
 	margin-bottom: 5px;
-	height: 38px;
+	height: 50px;
 }
 
 .itemLi:active {
@@ -51,7 +47,6 @@ input {
 }
 #fakebody {
 	width: 260px;
-	margin-left: 10%;
 }
 @media(min-width: 390px) {
 	#fakebody {
