@@ -18,7 +18,7 @@ input {
 }
 #button {
 	float: right;
-	margin-right: 20px; 
+	margin-right: 10px; 
 	height: 55px;
 	width: 90px;
 	background-color: green;
